@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="255dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="10dp"
+        android:width="90dp"
+        android:height="50dp"
+        android:background="@color/teal_200"
+        android:paddingTop="13dp"
+        android:text="this is frame layout. we can say FrameLayout simply blocks a particular area on the screen to display a single view. you cannot drag and drop in this layout."
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="190dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="150dp"
+        android:text="Button" />
+</FrameLayout>

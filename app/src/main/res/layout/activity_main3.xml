@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="139dp"
+        android:layout_height="113dp"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="140dp"
+        android:layout_height="113dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="130dp"
+        android:layout_height="98dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:background="@color/teal_200"
+        android:paddingTop="39dp"
+        android:text="Thsi is grid layout."
+        android:textAlignment="center" />
+
+</GridLayout>
