@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText n1, n2;
     TextView textView;
-    Button add , calc;
+    Button add , calc, ii, gm;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         add = findViewById(R.id.add);
         textView = findViewById(R.id.textView);
         calc = findViewById(R.id.calc);
+        ii = findViewById(R.id.ii);
+        gm = findViewById(R.id.gm);
 
         add.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +43,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent calc = new Intent(getApplicationContext(), MainActivity2.class);
                 startActivity(calc);
+            }
+        });
+
+        ii.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ii = new Intent(getApplicationContext(), MainActivity7.class);
+                startActivity(ii);
+            }
+        });
+
+        gm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent gm = new Intent(getApplicationContext(), MainActivity8.class);
+                startActivity(gm);
             }
         });
     }
