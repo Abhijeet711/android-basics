@@ -1,3 +1,4 @@
 # basic calculator
-basic android application for calculator made in java <br>
-different types of layout examples. 
+basic android calculator example. <br>
+using intent to visit a website, visit a location. <br>
+different types of layout examples. <br>
